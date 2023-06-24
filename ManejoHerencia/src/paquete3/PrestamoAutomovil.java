@@ -68,7 +68,7 @@ public class PrestamoAutomovil extends Prestamo {
         return valorMensual;
     }
 
-    public void calcularValorMensual() {
+        public void calcularValorMensual() {
         valorMensual = valorAuto / tiempoPrestamo;
     }
 
